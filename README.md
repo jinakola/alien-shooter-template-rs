@@ -14,6 +14,9 @@ This branch has been edited to run on TC219 machines in particular. See `standal
 4. Make sure you have Xilinx SDK installed. More information about installing Xilinx SDK at https://github.com/hegza/comp.ce.100-rust-exercise-guide.
 
 ## Build and run
+- Clone the repository, and change working directory:
+    - `git clone https://github.com/hegza/alien-shooter-template-rs/`
+    - `cd alien-shooter-template-rs`
 - Build the binary with predefined location for Xilinx SDK (TC219):
     - `XILINX_SDK="C:/Apps/Xilinx_Vivado2017/SDK/2017.2" cargo build` on Linux-like terminals like Git Bash and WSL. On PowerShell, use first `$Env:XILINX_SDK = "C:/Apps/Xilinx_Vivado2017/SDK/2017.2"` then `cargo build`.
     - The first build will take a while, since it has to download all dependencies.
