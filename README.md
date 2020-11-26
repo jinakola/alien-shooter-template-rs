@@ -1,6 +1,6 @@
 # Alien shooter, Rust version
 
-This branch has been edited to run on an undetermined machine configuration. See `master` branch for a version that runs at TC219.
+This branch has been edited to run on an undetermined linux machine configuration. See `standalone` for a version that runs on an undetermined machine configuration. See `master` branch for a version that runs at TC219.
 
 ## Setup
 

@@ -74,6 +74,12 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "cf1de2fe8c75bc145a2f577add951f8134889b4795d47466a54a5c846d691693"
 
 [[package]]
+name = "cc"
+version = "1.0.65"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "95752358c8f7552394baf48cd82695b345628ad3f170d607de3ca03b8dacca15"
+
+[[package]]
 name = "cexpr"
 version = "0.4.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -370,8 +376,9 @@ checksum = "712e227841d057c1ee1cd2fb22fa7e5a5461ae8e48fa2ca79ec42cfc1931183f"
 [[package]]
 name = "xil-sys"
 version = "0.1.0"
-source = "git+https://github.com/hegza/xil-custom-sys?branch=comp.ce.100-s2020#00c86b60c83b0a96fd4e165ed16840c946540bc4"
+source = "git+https://github.com/hegza/xil-custom-sys?branch=linux#1879e17ee71c3b72bc6fd55c7370bd512236825c"
 dependencies = [
  "bindgen",
+ "cc",
  "cty",
 ]
